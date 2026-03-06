@@ -9,10 +9,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TOKEN = os.environ.get("8351853660:AAERVwrBgc-Roj6AsniqnolQwQSR8_FagO4")
-application = Application.builder().token(TOKEN).build()
-ADMIN_ID = int(os.environ.get("ADMIN_ID", "1957240625"))
-
+TOKEN = "8351853660:AAERVwrBgc-Roj6AsniqnolQwQSR8_FagO4"
+ADMIN_ID = 1957240625
 
 PAYMENT_INFO = """💳 Реквизиты для оплаты:
 Сбербанк: +7 (XXX) XXX-XX-XX
